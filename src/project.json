@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Pokémon API",
+    "description": ["Demonstrates use of use of API calls and data manipulation with jQuery."],
+    "image": "pokedex-landing-page.png",
+    "technology": [],
+    "categories": ["jQuery", "API", "Fontend"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-pokemon-pokedex.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/Pokedex" 
+    }
+  },
+  {
+    "name": "Ultime Budgeter",
+    "description": ["Demonstrates use of frontend with jQuery and built a backend simple server with Node.js, Express.js, and simple database with mongoDB", "Budget application geared towards low budget users needing to focus money management"],
+    "image": "",
+    "technology": [],
+    "categories": ["jQuery", "Fontend", "Backend", "Node.js"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-capstone2.herokuapp.com/",
+      "github": "https://github.com/Sebastian-Russo/Capstone2" 
+    }
+  },  {
+    "name": "Your Personal Menu",
+    "description": "",
+    "image": "",
+    "technology": ["Demostrates use of React in front end, and built a backend server with Node.js, Express.js, and database with mongoDB", "Application to store all your recipes from your magazines, pinterest, and those handed down in the family all in one central central database. Enter as recipe, view in a menu format with categories. Select item to view as recipe, select missing ingredients you need to add to your grocery list."],
+    "categories": ["React", "Redux", "Fontend", "Backend", "Node.js"],
+    "icons": [],
+    "url": {
+      "live": "https://personal-menu.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/personal-menu",
+      "github-backend": "https://github.com/Sebastian-Russo/personal-menu-server" 
+    }
+  },  {
+    "name": "Adhesives Specialists",
+    "description": ["Redesigned previous employeer's website (From Wix to React) to be responsive with an updated modern website look."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "Fontend"],
+    "icons": [],
+    "url": {
+      "live": "https://ad-spec.herokuapp.com/",
+      "github": "https://github.com/Sebastian-Russo/ad-spec" 
+    }
+  },  {
+    "name": "React Search Engine Results Page",
+    "description": ["Demonstrates use of a responsive react video player. Dynamic routing. Demonstrates use of API calls, data querying and data manipulation in a React app."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "API", "Fontend"],
+    "icons": [],
+    "url": {
+      "live": "https://searchengineresultspage.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/serp" 
+    }
+  },  {
+    "name": "Profile App",
+    "description": ["Simple profile app which allows you to upload a picture and change your nickname. Demostrates the use of running a bash script, storing images in AWS s3, and authentication."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "Redux", "Fontend", "Backend", "Node.js", "AWS"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-profile-app.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/profile-app" 
+    }
+  },  {
+    "name": "Weather API",
+    "description": ["Demonstrates Use of API calls and data manipulation in a React app."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "API", "Fontend"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-weather-app.netlify.app/forecast",
+      "github": "https://github.com/Sebastian-Russo/weather-app" 
+    }
+  },  {
+    "name": "HackerNews API",
+    "description": ["Demonstrates use of API calls, data querying and data manipulation in a React app. What's different about this API app, HackerNews partnered with FireBase and put out a free API that was a bit more tricky. In their word's 'is essentially a dump of our in-memory data structures,' which meant solving mulitple calls and pagination involved."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "API", "Fontend"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-hackernews.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/hackernews" 
+    }
+  },  {
+    "name": "Spotify API",
+    "description": ["Demonstrates use of API calls. Multiple calls, drilling down several layers of API's. Dealt with API authorization tokens as well."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "API", "Fontend"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-spotify-api.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/spotify-API" 
+    }
+  },  {
+    "name": "Youtube API",
+    "description": ["Demonstrates use of API calls from the server. Pagination. Dynamic routing. Responsive video player."],
+    "image": "",
+    "technology": [],
+    "categories": ["React", "API", "Fontend", "Backend", "Node.js"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-youtube-api.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/youtube-api" 
+    }
+  },
+  {
+    "name": "place holder",
+    "description": "",
+    "image": "",
+    "technology": [],
+    "categories": [],
+    "icons": [],
+    "url": {
+      "live": "",
+      "github": "" 
+    }
+  }
+]

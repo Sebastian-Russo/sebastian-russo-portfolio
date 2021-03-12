@@ -1,0 +1,18 @@
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 50px 0 50px;
+}
+
+.image-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+img {
+  border: black solid;
+  height: auto;
+  max-width: 100%;
+}
