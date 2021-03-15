@@ -1,6 +1,8 @@
 import React,{ useState } from 'react'; 
 import { AppWrapper } from './app-wrapper';
 import { NavBar } from './navbar';
+import { About } from './about';
+import { Footer } from './footer';
 import projects from '../project.json';
 import '../styling/App.css';
 
@@ -21,7 +23,9 @@ const App = () => {
   return (
     <div className="App">
       <NavBar selectFromNav={selectFromNav} />
+      <About />
       <AppWrapper selected={selected} />
+      <Footer />
     </div>
   );
 }

@@ -111,17 +111,5 @@
       "live": "https://seb-youtube-api.netlify.app/",
       "github": "https://github.com/Sebastian-Russo/youtube-api" 
     }
-  },
-  {
-    "name": "place holder",
-    "description": "",
-    "image": "",
-    "technology": [],
-    "categories": [],
-    "icons": [],
-    "url": {
-      "live": "",
-      "github": "" 
-    }
   }
 ]
