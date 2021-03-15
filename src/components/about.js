@@ -24,4 +24,4 @@ export const About = () => {
       <div>TypeScript, AWS, SQL</div>
     </div>
   )
-}
+  }
