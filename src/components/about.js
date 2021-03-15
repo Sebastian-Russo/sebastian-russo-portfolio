@@ -11,7 +11,7 @@ export const About = () => {
         Experienced with modern tooling and excited to continue growing as an engineer. 
         Currently, a heavy focus in React and frontend. 
       </div>
-      <div>Technologies:</div>
+      <div>Proficient Technologies:</div>
       <div>HTML, CSS, JavaScript, React, React/Reudx, jQuery, Node.js, Express.js, MongoDB</div>
       <div>
           <i class="fab fa-html5"></i>

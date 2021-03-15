@@ -1,2 +1,24 @@
 .footer-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  background-color: lightgrey;
+  font-size: 1.4em;
+}
+
+.footer-wrapper > div {
+  margin: 10px;
+}
+
+.footer-wrapper > div > a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-wrapper > div > a > i {
+  margin: 10px;
 }

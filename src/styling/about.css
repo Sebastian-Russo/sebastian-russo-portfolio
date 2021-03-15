@@ -4,3 +4,14 @@
   align-items: center;
   flex-direction: column;
 }
+
+.about-wrapper > div {
+  font-size: 1.2em;
+  margin: 6px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+i {
+  margin: 6px;
+}

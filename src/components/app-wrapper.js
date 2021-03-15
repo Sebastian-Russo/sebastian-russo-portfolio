@@ -6,7 +6,9 @@ export const AppWrapper = ({selected}) => {
 
   const project = selected.map((item,i) => {
     return (
-      <AppCard key={i} item={item} />
+      <div className="app-wrapper">
+        <AppCard key={i} item={item} />
+      </div>
     )
   })
 

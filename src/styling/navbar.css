@@ -3,4 +3,24 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: lightblue;
+}
+
+.navbar-wrapper > div > a {
+  text-decoration: none;
+  color: lightblue;
+}
+.navbar-wrapper > div > a:hover {
+  color: white;
+}
+
+.navlink-wrapper:hover {
+  cursor: pointer;
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
