@@ -10,11 +10,11 @@ export const Footer = () => {
       <div>Sebastian Russo</div>
       <div><a href="mailto:russo.sebastian@gmail.com">russo.sebastian@gmail.com</a></div>
       <div><a href="https://www.linkedin.com/in/sebastian-russo-2054565a/">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
             LinkedIn</a>
       </div>
       <div><a href="https://github.com/Sebastian-Russo">
-          <i class="fab fa-github-square"></i>
+          <i className="fab fa-github-square"></i>
             Icon Github</a></div>
     </div>
   )

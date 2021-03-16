@@ -4,7 +4,7 @@
     "description": ["Demonstrates use of use of API calls and data manipulation with jQuery."],
     "image": "pokedex-landing-page.png",
     "technology": [],
-    "categories": ["jQuery", "API", "Fontend"],
+    "categories": ["All Projects","jQuery Projects", "API Projects", "Frontend"],
     "icons": [],
     "url": {
       "live": "https://seb-pokemon-pokedex.netlify.app/",
@@ -16,7 +16,7 @@
     "description": ["Demonstrates use of frontend with jQuery and built a backend simple server with Node.js, Express.js, and simple database with mongoDB", "Budget application geared towards low budget users needing to focus money management"],
     "image": "",
     "technology": [],
-    "categories": ["jQuery", "Fontend", "Backend", "Node.js"],
+    "categories": ["All Projects","jQuery Projects", "Frontend", "Backend", "Node.js"],
     "icons": [],
     "url": {
       "live": "https://seb-capstone2.herokuapp.com/",
@@ -24,10 +24,10 @@
     }
   },  {
     "name": "Your Personal Menu",
-    "description": "",
+    "description": ["Demostrates use of React and Redux in the front end. Built a backend server with Node.js, Express.js, and a database with mongoDB", "Application to store all your recipes from your magazines, pinterest, and those handed down in the family all in one central central database. Enter as recipe, view in a menu format with categories. Select item to view as recipe, select missing ingredients you need to add to your grocery list."],
     "image": "",
-    "technology": ["Demostrates use of React in front end, and built a backend server with Node.js, Express.js, and database with mongoDB", "Application to store all your recipes from your magazines, pinterest, and those handed down in the family all in one central central database. Enter as recipe, view in a menu format with categories. Select item to view as recipe, select missing ingredients you need to add to your grocery list."],
-    "categories": ["React", "Redux", "Fontend", "Backend", "Node.js"],
+    "technology": [],
+    "categories": ["All Projects","React Projects", "Redux", "Frontend", "Backend", "Node.js"],
     "icons": [],
     "url": {
       "live": "https://personal-menu.netlify.app/",
@@ -39,7 +39,7 @@
     "description": ["Redesigned previous employeer's website (From Wix to React) to be responsive with an updated modern website look."],
     "image": "",
     "technology": [],
-    "categories": ["React", "Fontend"],
+    "categories": ["All Projects","React Projects", "Frontend"],
     "icons": [],
     "url": {
       "live": "https://ad-spec.herokuapp.com/",
@@ -50,7 +50,7 @@
     "description": ["Demonstrates use of a responsive react video player. Dynamic routing. Demonstrates use of API calls, data querying and data manipulation in a React app."],
     "image": "",
     "technology": [],
-    "categories": ["React", "API", "Fontend"],
+    "categories": ["All Projects","React Projects", "API Projects", "Frontend"],
     "icons": [],
     "url": {
       "live": "https://searchengineresultspage.netlify.app/",
@@ -61,7 +61,7 @@
     "description": ["Simple profile app which allows you to upload a picture and change your nickname. Demostrates the use of running a bash script, storing images in AWS s3, and authentication."],
     "image": "",
     "technology": [],
-    "categories": ["React", "Redux", "Fontend", "Backend", "Node.js", "AWS"],
+    "categories": ["All Projects","React Projects", "Redux", "Frontend", "Backend", "Node.js", "AWS Projects"],
     "icons": [],
     "url": {
       "live": "https://seb-profile-app.netlify.app/",
@@ -72,7 +72,7 @@
     "description": ["Demonstrates Use of API calls and data manipulation in a React app."],
     "image": "",
     "technology": [],
-    "categories": ["React", "API", "Fontend"],
+    "categories": ["All Projects","React Projects", "API Projects", "Frontend"],
     "icons": [],
     "url": {
       "live": "https://seb-weather-app.netlify.app/forecast",
@@ -83,7 +83,7 @@
     "description": ["Demonstrates use of API calls, data querying and data manipulation in a React app. What's different about this API app, HackerNews partnered with FireBase and put out a free API that was a bit more tricky. In their word's 'is essentially a dump of our in-memory data structures,' which meant solving mulitple calls and pagination involved."],
     "image": "",
     "technology": [],
-    "categories": ["React", "API", "Fontend"],
+    "categories": ["All Projects","React Projects", "API Projects", "Frontend"],
     "icons": [],
     "url": {
       "live": "https://seb-hackernews.netlify.app/",
@@ -94,7 +94,7 @@
     "description": ["Demonstrates use of API calls. Multiple calls, drilling down several layers of API's. Dealt with API authorization tokens as well."],
     "image": "",
     "technology": [],
-    "categories": ["React", "API", "Fontend"],
+    "categories": ["All Projects","React Projects", "API Projects", "Frontend"],
     "icons": [],
     "url": {
       "live": "https://seb-spotify-api.netlify.app/",
@@ -105,7 +105,7 @@
     "description": ["Demonstrates use of API calls from the server. Pagination. Dynamic routing. Responsive video player."],
     "image": "",
     "technology": [],
-    "categories": ["React", "API", "Fontend", "Backend", "Node.js"],
+    "categories": ["All Projects","React Projects", "API Projects", "Frontend", "Backend", "Node.js"],
     "icons": [],
     "url": {
       "live": "https://seb-youtube-api.netlify.app/",

@@ -1,8 +1,22 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: rgb(223, 223, 223);
+}
+
+.img-wrapper {
+  margin-left: 40px;
+}
+
 .about-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .about-wrapper > div {

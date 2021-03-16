@@ -15,8 +15,8 @@ const App = () => {
       for (let item of category) {
         obj[item] = obj[item] +1 || 1
       }
-      // filter out the selected projects obj/data from array of all projects data
-      const pro = projects.filter(item => obj[item.name])
+      // filter out the selected projects obj/data from array of all projects data, reversed order to start with most recent
+      const pro = projects.filter(item => obj[item.name]).reverse();
     setSelected(pro)
   }
 

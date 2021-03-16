@@ -27,7 +27,7 @@ export const NavBar = ({selectFromNav}) => {
 
   return (
     <div className="navbar-wrapper">
-      <div><a href="">Sebastian</a></div>
+      {/* <div><a href="">Sebastian</a></div> */}
       <div><a href="https://github.com/Sebastian-Russo" rel="noreferrer" target="_blank">Github</a></div>
       {item}
       <div>Total Projects: {apps.length}</div>

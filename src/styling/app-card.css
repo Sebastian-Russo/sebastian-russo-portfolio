@@ -23,6 +23,21 @@ img {
   max-width: 100%;
 }
 
+button {
+  border-radius: 15px;
+  background-color: aliceblue;
+  margin: 6px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: lightgray;
+  border: aliceblue;
+}
+
+/* left */
+
 @-webkit-keyframes slideInLeft {
   0% {
     transform: translateX(-900px);
@@ -48,7 +63,7 @@ img {
   }
 }
 
-
+/* right  */
 
 @-webkit-keyframes slideInRight {
   0% {

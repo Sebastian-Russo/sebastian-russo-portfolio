@@ -22,3 +22,7 @@
 .footer-wrapper > div > a > i {
   margin: 10px;
 }
+
+.footer-wrapper > div > a:hover {
+  color: aliceblue;
+}

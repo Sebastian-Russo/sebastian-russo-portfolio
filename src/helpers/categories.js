@@ -11,6 +11,6 @@ const cleanDulpicates = (array) => {
 
 const cleaned = cleanDulpicates(duplicatesArray)
 // console.log(cleaned)
-const removeSpecific = cleaned.filter(item => item !== "Node.js" && item !== "Redux")
+const removeSpecific = cleaned.filter(item => item !== "Node.js" && item !== "Redux" && item !== "Frontend" && item !== "Backend")
 // console.log(removeSpecific)
 export const categories = removeSpecific;
