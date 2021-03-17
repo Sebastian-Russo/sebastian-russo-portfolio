@@ -10,7 +10,7 @@ export const About = () => {
           <h1>Hi, I'm Sebastian Russo</h1>
           <h2>I'm a fullstack developer</h2>
           <div>
-            Heavy focus in React and frontend. 
+            Heavy focus in React and frontend. Node.js backend. 
             Experienced with modern tooling and excited to continue growing as an engineer. 
           </div>
           <div>Proficient Technologies:</div>

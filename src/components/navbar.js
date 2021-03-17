@@ -17,7 +17,7 @@ export const NavBar = ({selectFromNav}) => {
   const item = categories.map((catetory,i) => {
     return (
       <div key={i}
-        className="navlink-wrapper" 
+        className="navlink" 
         onClick={() => handleType(catetory)}>
           {catetory}
       </div>
@@ -27,10 +27,14 @@ export const NavBar = ({selectFromNav}) => {
 
   return (
     <div className="navbar-wrapper">
-      {/* <div><a href="">Sebastian</a></div> */}
-      <div><a href="https://github.com/Sebastian-Russo" rel="noreferrer" target="_blank">Github</a></div>
-      {item}
-      <div>Total Projects: {apps.length}</div>
+        <input type="checkbox" id="check" />
+        <label htmlFor="check" className="hamburger-button"><i className="fas fa-bars"></i></label>
+      <ul className="navbar-ul">
+        {/* <div><a href="">Sebastian</a></div> */}
+        <div className="navlink"><a href="https://github.com/Sebastian-Russo" rel="noreferrer" target="_blank">Github</a></div>
+        {item}
+        <div className="navlink">Total Projects: {apps.length}</div>
+      </ul>
     </div>
   )
 }

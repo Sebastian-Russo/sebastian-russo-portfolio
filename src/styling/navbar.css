@@ -13,15 +13,64 @@
   text-decoration: none;
   color: lightblue;
 }
-.navbar-wrapper > div > a:hover {
+.navbar-wrapper > div > a:hover,
+.navbar-wrapper > div > a:active {
   color: white;
 }
 
-.navlink-wrapper:hover {
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navlink {
+  margin: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+.navlink:hover {
   cursor: pointer;
   color: white;
 }
 
 a {
   text-decoration: none;
+}
+
+.hamburger-button {
+  font-size: 30px;
+  color: #000000;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-wrapper {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin: 0;
+  }
+  .hamburger-button {
+    display: flex;
+  }
+  .hamburger-button > i {
+    display: flex;
+
+    margin: 0;
+    margin-top: 2px;
+  }
+  ul {
+    flex-direction: column;
+  }
+  #check:checked ~ .navbar-ul {
+    display: none;
+  }
 }
