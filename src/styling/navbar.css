@@ -3,16 +3,18 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
   font-size: 1.2em;
   color: lightblue;
+  position: fixed;
+  top: 0;
+  background-color: grey;
 }
 
 .navbar-wrapper > div > a {
   text-decoration: none;
   color: lightblue;
 }
+
 .navbar-wrapper > div > a:hover,
 .navbar-wrapper > div > a:active {
   color: white;

@@ -4,7 +4,7 @@ import '../styling/about.css';
 
 export const About = () => {
   return (
-    <div className="about"> 
+    <div className="about" id="top"> 
       <div className="img-wrapper"><img src={image} alt="computers"/></div>
       <div className="about-wrapper">
           <h1>Hi, I'm Sebastian Russo</h1>

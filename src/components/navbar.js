@@ -7,7 +7,7 @@ import '../styling/navbar.css';
 export const NavBar = () => {
 
   return (
-    <nav className="navbar-wrapper" id="top">
+    <nav className="navbar-wrapper">
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="hamburger-button"><i className="fas fa-bars"></i></label>
       <ul className="navbar-ul">
