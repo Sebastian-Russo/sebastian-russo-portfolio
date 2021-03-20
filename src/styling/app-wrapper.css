@@ -1,3 +1,21 @@
 .app-wrapper {
   margin-bottom: 60px;
 }
+
+.sort-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.sort {
+  margin: 10px;
+}
+
+.sort:hover {
+  cursor: pointer;
+  color: lightgray;
+}

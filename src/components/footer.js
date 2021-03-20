@@ -3,7 +3,7 @@ import '../styling/footer.css';
 
 export const Footer = () => {
   return (
-    <div className="footer-wrapper">
+    <div className="footer-wrapper" id="contact">
       <h2>Like what you see?</h2>
       <div><img src="https://media.giphy.com/media/gEwrHonZ00d8bBDtOS/giphy.gif" alt="gif" width="250px"/></div>
       <div>Contact me:</div>

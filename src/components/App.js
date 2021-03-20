@@ -1,4 +1,5 @@
 import React,{ useState } from 'react'; 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { AppWrapper } from './app-wrapper';
 import { NavBar } from './navbar';
 import { About } from './about';
@@ -9,7 +10,7 @@ import '../styling/App.css';
 const App = () => {
   const [selected, setSelected] = useState(projects);
 
-  const selectFromNav = (category) => {
+  const sortProjects = (category) => {
       // map over selected projects array into obj keys
       const obj = {};
       for (let item of category) {
@@ -20,13 +21,19 @@ const App = () => {
     setSelected(pro)
   }
 
+
+
   return (
-    <div className="App">
-      <NavBar selectFromNav={selectFromNav} />
-      <About />
-      <AppWrapper selected={selected} />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+
+        <About />
+        <AppWrapper selected={selected} sortProjects={sortProjects} />
+        <Footer />
+        
+      </div>
+    </Router>
   );
 }
 
