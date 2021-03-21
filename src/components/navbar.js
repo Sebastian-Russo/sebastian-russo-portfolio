@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import apps from '../project.json';
+// import apps from '../project.json';
 import '../styling/navbar.css';
 
 
@@ -16,7 +16,7 @@ export const NavBar = () => {
         <div className="navlink"><HashLink smooth to="#top">Top</HashLink></div>
         <div className="navlink"><HashLink smooth to="#projects">Projects</HashLink></div>
         <div className="navlink"><HashLink smooth to="#contact">Contact</HashLink></div>
-        <div className="navlink">Total Projects: {apps.length}</div>
+        {/* <div className="navlink">Total Projects: {apps.length}</div> */}
       </ul>
     </nav>
   )

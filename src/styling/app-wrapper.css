@@ -1,5 +1,14 @@
+.outter-app-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .app-wrapper {
   margin-bottom: 60px;
+  margin-top: 40px;
 }
 
 .sort-wrapper {
@@ -7,8 +16,8 @@
   justify-content: center;
   align-items: center;
   background-color: grey;
-  margin-right: -10px;
-  margin-left: -10px;
+  padding: 20px;
+  font-size: 1.2em;
 }
 
 .sort {
@@ -18,4 +27,10 @@
 .sort:hover {
   cursor: pointer;
   color: lightgray;
+}
+
+@media only screen and (max-width: 400px) {
+  .sort-wrapper {
+    flex-direction: column;
+  }
 }

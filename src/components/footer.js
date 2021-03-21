@@ -13,9 +13,9 @@ export const Footer = () => {
             <i className="fab fa-linkedin"></i>
             LinkedIn</a>
       </div>
-      <div><a href="https://github.com/Sebastian-Russo">
+      <div><a href="https://github.com/Sebastian-Russo" rel="noreferrer" target="_blank">
           <i className="fab fa-github-square"></i>
-            Icon Github</a></div>
+            Github</a></div>
     </div>
   )
 }

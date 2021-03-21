@@ -1,17 +1,28 @@
-import React from 'react'; 
+import React, { useState } from 'react'; 
 import { AppCard } from './app-card';
 import '../styling/app-wrapper.css';
-import { categories } from '../helpers/categories';
+import projects from '../project.json';
+import { categories } from '../helpers/sort-projects';
 import apps from '../project.json';
 
 
+export const AppWrapper = () => {
+  const [selected, setSelected] = useState(projects);
 
-export const AppWrapper = ({selected, sortProjects}) => {
+  const sortProjects = (category) => {
+      // map over selected projects array into obj keys
+      const obj = {};
+      for (let item of category) {
+        obj[item] = obj[item] +1 || 1
+      }
+      // filter out the selected projects obj/data from array of all projects data, reversed order to start with most recent
+      const pro = projects.filter(item => obj[item.name]).reverse();
+    setSelected(pro)
+  }
 
   const handleType = (type) => {    
     const list = apps.filter((app,i) => app.categories.find((item,i) => item === type));
     const name = list.map(item => item.name)
-    console.log(name)
     sortProjects(name)
   }
 
@@ -35,7 +46,7 @@ export const AppWrapper = ({selected, sortProjects}) => {
   })
 
   return (
-    <div id="projects">
+    <div className="outter-app-wrapper" id="projects">
       <div className="sort-wrapper">Sort by: {item}</div>
       {project}
     </div>
