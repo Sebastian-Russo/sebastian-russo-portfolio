@@ -4,10 +4,11 @@
   align-items: center;
   width: 100%;
   font-size: 1.2em;
-  color: lightblue;
+  color: #66fcf1;
   position: fixed;
   top: 0;
-  background-color: grey;
+  background-color: #1f2833;
+  z-index: 100;
 }
 
 .navbar-wrapper > div > a {
@@ -45,10 +46,13 @@ a {
 
 .hamburger-button {
   font-size: 30px;
-  color: #000000;
+  color: #66fcf1;
   line-height: 80px;
   cursor: pointer;
   display: none;
+  margin-right: 14px;
+  padding: 0 6px 0 6px;
+  border: 2px solid #66fcf1;
 }
 #check {
   display: none;

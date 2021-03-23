@@ -5,8 +5,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  color: white;
-  background-color: lightgrey;
+  background-color: #1f2833;
   font-size: 1.4em;
 }
 
@@ -15,7 +14,7 @@
 }
 
 .footer-wrapper > div > a {
-  color: white;
+  color: #66fcf1;
   text-decoration: none;
 }
 

@@ -1,5 +1,8 @@
 body {
-  background-color: aliceblue;
+  background-color: #0b0c10;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Kiwi Maru", serif;
+  color: #c5c6c7;
 }
 
 a:visited {

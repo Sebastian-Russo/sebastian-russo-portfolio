@@ -13,8 +13,6 @@ export const About = () => {
             Heavy focus in React and frontend. Node.js backend. 
             Experienced with modern tooling and excited to continue growing as an engineer. 
           </div>
-          <div>Proficient Technologies:</div>
-          <div>HTML, CSS, JavaScript, React, React/Reudx, jQuery, Node.js, Express.js, MongoDB</div>
           <div>
               <i className="fab fa-html5"></i>
               <i className="fab fa-css3-alt"></i>
@@ -22,8 +20,10 @@ export const About = () => {
               <i className="fab fa-node-js"></i>
               {/* <div><img src="/images/mongo.png" alt="mongodb"/></div> */}
           </div>
+          <div>Proficient Technologies:</div>
+          <div className="tech">HTML, CSS, JavaScript, React, React/Redux, jQuery, Node.js, Express.js, MongoDB</div>
           <div>Currently Learning:</div>
-          <div>TypeScript, AWS, SQL</div>
+          <div className="tech">TypeScript, AWS, SQL</div>
       </div>
     </div>
   )

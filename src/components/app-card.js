@@ -24,7 +24,7 @@ export const AppCard = ({item}) => {
         <div className="image-wrapper">
             <a href={item.url.live} target="_blank" rel="noreferrer"><img src={image} alt="project" /></a>
           </div>
-        <div>{item.description[0]}</div>
+        <div className="description">{item.description[0]}</div>
         <div>
           <button><a href={item.url.live} target="_blank" rel="noreferrer">View Project</a></button>
           <button><a href={item.url.github} target="_blank" rel="noreferrer">View Code</a></button>

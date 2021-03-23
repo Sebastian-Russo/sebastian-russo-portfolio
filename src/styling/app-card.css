@@ -24,17 +24,20 @@ img {
   max-width: 100%;
 }
 
+.description {
+  margin: 6px;
+}
+
 button {
   border-radius: 15px;
-  background-color: aliceblue;
+  background-color: #66fcf1;
   margin: 6px;
   padding: 8px;
   text-decoration: none;
 }
 
 button:hover {
-  background-color: lightgray;
-  border: aliceblue;
+  background-color: #45a29e;
 }
 
 /* left */
