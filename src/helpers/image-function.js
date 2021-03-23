@@ -8,7 +8,7 @@ import weather from '../images/weather-app.png';
 import hacker from '../images/hackernews.png';
 import spotify from '../images/spotify-app.png';
 import youtube from '../images/youtube-api.png';
-
+import contactForm from '../images/contact-form.png';
 
 export const imageFunction = type => {
   const obj = {
@@ -22,7 +22,7 @@ export const imageFunction = type => {
     "HackerNews API": hacker, 
     "Spotify API": spotify, 
     "Youtube API": youtube, 
-
+    "Contact Form AWS": contactForm
   }
-  return obj[type] 
+  return obj[type];
 }

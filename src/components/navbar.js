@@ -13,9 +13,9 @@ export const NavBar = () => {
       <ul className="navbar-ul">
         <div><HashLink smooth to="#contact" className="navlink">Sebastian Russo</HashLink></div>
         <div className="navlink"><a href="https://github.com/Sebastian-Russo" rel="noreferrer" target="_blank">Github</a></div>
-        <div className="navlink"><HashLink smooth to="#top">Top</HashLink></div>
-        <div className="navlink"><HashLink smooth to="#projects">Projects</HashLink></div>
-        <div className="navlink"><HashLink smooth to="#contact">Contact</HashLink></div>
+        <div className="navlink"><HashLink className="navlink" smooth to="#top">Top</HashLink></div>
+        <div className="navlink"><HashLink className="navlink" smooth to="#projects">Projects</HashLink></div>
+        <div className="navlink"><HashLink className="navlink" smooth to="#contact">Contact</HashLink></div>
         {/* <div className="navlink">Total Projects: {apps.length}</div> */}
       </ul>
     </nav>

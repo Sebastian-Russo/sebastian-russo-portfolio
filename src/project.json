@@ -111,5 +111,17 @@
       "live": "https://seb-youtube-api.netlify.app/",
       "github": "https://github.com/Sebastian-Russo/youtube-api" 
     }
+  },
+  {
+    "name": "Contact Form AWS",
+    "description": ["Allows user to sent a message demonstrates use of AWS through an API Gateway, Lambda function, DynamoDB, Material UI"],
+    "image": "",
+    "technology": [],
+    "categories": ["All Projects","React Projects", "Frontend", "Backend", "AWS Projects"],
+    "icons": [],
+    "url": {
+      "live": "https://seb-contact-form.netlify.app/",
+      "github": "https://github.com/Sebastian-Russo/contact-form" 
+    }
   }
 ]
