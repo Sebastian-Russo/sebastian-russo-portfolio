@@ -46,7 +46,7 @@ export const AppWrapper = () => {
   })
 
   return (
-    <div className="outter-app-wrapper" id="projects">
+    <div className="outter-app-wrapper">
       <div className="sort-wrapper">Sort by: {item}</div>
       {project}
     </div>

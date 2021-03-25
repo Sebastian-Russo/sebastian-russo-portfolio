@@ -23,7 +23,7 @@ export const About = () => {
           <div>Proficient Technologies:</div>
           <div className="tech">HTML, CSS, JavaScript, React, React/Redux, jQuery, Node.js, Express.js, MongoDB</div>
           <div>Currently Learning:</div>
-          <div className="tech">TypeScript, AWS, SQL</div>
+          <div className="tech" id="projects">TypeScript, AWS, SQL</div>
       </div>
     </div>
   )
