@@ -12,7 +12,7 @@
     }
   },
   {
-    "name": "Ultime Budgeter",
+    "name": "Ultimate Budgeter",
     "description": ["Demonstrates use of frontend with jQuery and built a backend simple server with Node.js, Express.js, and simple database with mongoDB", "Budget application geared towards low budget users needing to focus money management"],
     "image": "",
     "technology": [],
@@ -24,7 +24,7 @@
     }
   },  {
     "name": "Your Personal Menu",
-    "description": ["Demostrates use of React and Redux in the front end. Built a backend server with Node.js, Express.js, and a database with mongoDB", "Application to store all your recipes from your magazines, pinterest, and those handed down in the family all in one central central database. Enter as recipe, view in a menu format with categories. Select item to view as recipe, select missing ingredients you need to add to your grocery list."],
+    "description": ["Demonstrates use of React and Redux in the front end. Built a backend server with Node.js, Express.js, and a database with mongoDB", "Application to store all your recipes from your magazines, pinterest, and those handed down in the family all in one central database. Enter as recipe, view in a menu format with categories. Select item to view as recipe, select missing ingredients you need to add to your grocery list."],
     "image": "",
     "technology": [],
     "categories": ["All Projects","React Projects", "Redux", "Frontend", "Backend", "Node.js"],
@@ -36,7 +36,7 @@
     }
   },  {
     "name": "Adhesives Specialists",
-    "description": ["Redesigned previous employeer's website (From Wix to React) to be responsive with an updated modern website look."],
+    "description": ["Redesigned previous employers’ website (From Wix to React) to be responsive with an updated modern website look."],
     "image": "",
     "technology": [],
     "categories": ["All Projects","React Projects", "Frontend"],
@@ -58,7 +58,7 @@
     }
   },  {
     "name": "Profile App",
-    "description": ["Simple profile app which allows you to upload a picture and change your nickname. Demostrates the use of running a bash script, storing images in AWS s3, and authentication."],
+    "description": ["Simple profile app which allows you to upload a picture and change your nickname. Demonstrates the use of running a bash script, storing images in AWS s3, and authentication."],
     "image": "",
     "technology": [],
     "categories": ["All Projects","React Projects", "Redux", "Frontend", "Backend", "Node.js", "AWS Projects"],
@@ -80,7 +80,7 @@
     }
   },  {
     "name": "HackerNews API",
-    "description": ["Demonstrates use of API calls, data querying and data manipulation in a React app. What's different about this API app, HackerNews partnered with FireBase and put out a free API that was a bit more tricky. In their word's 'is essentially a dump of our in-memory data structures,' which meant solving mulitple calls and pagination involved."],
+    "description": ["Demonstrates use of API calls, data querying and data manipulation in a React app. What's different about this API app, HackerNews partnered with FireBase and put out a free API that was a bit trickier. In their word's 'is essentially a dump of our in-memory data structures,' which meant solving multiple calls and pagination involved."],
     "image": "",
     "technology": [],
     "categories": ["All Projects","React Projects", "API Projects", "Frontend"],
@@ -101,7 +101,7 @@
       "github": "https://github.com/Sebastian-Russo/spotify-API" 
     }
   },  {
-    "name": "Youtube API",
+    "name": "YouTube API",
     "description": ["Demonstrates use of API calls from the server. Pagination. Dynamic routing. Responsive video player."],
     "image": "",
     "technology": [],
@@ -114,7 +114,7 @@
   },
   {
     "name": "Contact Form AWS",
-    "description": ["Allows user to sent a message demonstrates use of AWS through an API Gateway, Lambda function, DynamoDB, Material UI"],
+    "description": ["Allows user to send a message demonstrates use of AWS through an API Gateway, Lambda function, DynamoDB, Material UI"],
     "image": "",
     "technology": [],
     "categories": ["All Projects","React Projects", "Frontend", "Backend", "AWS Projects"],

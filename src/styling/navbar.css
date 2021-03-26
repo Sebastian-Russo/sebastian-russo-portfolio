@@ -52,6 +52,7 @@ a {
   line-height: 80px;
   cursor: pointer;
   display: none;
+  margin: 8px;
   margin-right: 14px;
   padding: 0 6px 0 6px;
   border: 2px solid #66fcf1;

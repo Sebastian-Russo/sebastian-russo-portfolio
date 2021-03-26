@@ -30,6 +30,7 @@ img {
 
 button {
   border-radius: 15px;
+  border: none;
   background-color: #66fcf1;
   margin: 6px;
   padding: 8px;
